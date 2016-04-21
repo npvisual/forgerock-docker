@@ -5,7 +5,7 @@ OpenIDM Docker Image
 A Docker implementation for OpenIDM 4.0.0. Check out the main `project page`_ for features and requirements to
 build/run.
 
-.. _project page: ..
+.. _project page: https://github.com/zalando/forgerock-docker
 
 Building
 ========
