@@ -1,4 +1,4 @@
-FROM zalando/openjdk:8u66-b17-1-3
+FROM registry.opensource.zalan.do/stups/openjdk:8u66-b17-1-17
 
 MAINTAINER Rodrigo Reis <rodrigo.reis@zalando.de>
 MAINTAINER Hanno Hecker <hanno.hecker@zalando.de>
