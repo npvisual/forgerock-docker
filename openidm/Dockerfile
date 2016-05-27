@@ -10,12 +10,13 @@ RUN apt-get -y install unzip
 # Copy software and provisioners
 COPY openidm-4.0.0.zip /opt/openidm.zip
 COPY provisioners/openidm.sh /opt/
+ADD openidm-start.sh /opt/
 
 # Run provisioners
 RUN chmod 755 /opt/*.sh
 RUN /opt/openidm.sh
 
-ENTRYPOINT [ "/opt/openidm/startup.sh" ]
+ENTRYPOINT [ "/opt/openidm-start.sh" ]
 
 # Expose ports
 EXPOSE 8443
